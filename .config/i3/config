@@ -230,10 +230,10 @@ bindsym $mod+Shift+n exec ~/.config/i3/scripts/empty-workspace
 
 # --------- Resize ------------------------------------------------------
 
-mode "resize" {
-        #Enter resize
-        bindsym $mod+r mode "resize"
+#Enter resize
+bindsym $mod+r mode "resize"
 
+mode "resize" {
         # Escape from resize mod
         bindsym Return mode "default"
         bindsym Escape mode "default"
