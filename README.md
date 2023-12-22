@@ -7,17 +7,21 @@ My personal system is endeavourOS, so all next commands is for arch-based system
 ### The needed packages
 
 ```
-yay -S picom-git polybar-git xmousepasteblock-git nerd-fonts-git 
+yay -S light-git picom-git polybar-git xmousepasteblock-git nerd-fonts-git 
 ```
 
 ```
-sudo pacman -S alacritty
+sudo pacman -S alacritty pulseaudio
 ```
 
 ### Useful apps
 
 ```
-yay -S telegram-desktop-bin
+yay -S flameshot
+```
+
+```
+sudo pacman -S telegram-desktop
 ```
 
 ## Additional
